@@ -13,6 +13,9 @@ import linkedinIcon from "./images/linkedin.svg"
 //Image Files
 import myPicture from "./images/me_in_italy.jpg"
 import fud from "./images/fud.png"
+import gpt2 from "./images/gpt2.png"
+import hiphop from "./images/hiphop.jpeg"
+import social from "./images/social.jpeg"
 
 export default {
   
@@ -48,34 +51,33 @@ export default {
       url: "https://github.com/kentthai/food-inventory-webapp",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "GPT-2 Text Generation of Presidential Speeches", 
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Used the GPT-2 model along with inputted prefixes such as phrases, sentences, or paragraphs in order to see how each president would complete a certain speech based on its intro", 
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        gpt2,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/ucsd-dsc-arts/dsc160-final-dsc160_final_group8",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "A Data Science Look into Hip-Hop from 1980 to 2020", 
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Determined whether popular terms for classifying hip hop (based on factors like period, geography, and subgenre) are visible in audio features.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        hiphop,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Social Media Usage by Teenagers", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A data visualization dashboard that allows you to customize what demographics and filters you want to use in order to visualize different statistics and learn more about social media usage amongst different groups of teenagers.", 
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+        social,
+      url: "https://public.tableau.com/profile/rakesh.senthilvelan#!/vizhome/Dashboard_Visuals/Story1?publish=yes",
     },
     {
       title: "Project Five", //Project Title - Add Your Project Title Here
@@ -169,7 +171,7 @@ export default {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
 
 
-  contactSubHeading: "Feel free to reach out or check out my Github!",
+  contactSubHeading: "Feel free to reach out or check out my Github and LinkedIn!",
   social: [
     { img: githubIcon, url: "https://github.com/rakeshsenthil" },
     {img: linkedinIcon, url: "https://www.linkedin.com/in/rakesh-senthilvelan-470a16147/"}    
