@@ -10,6 +10,10 @@ import codeIcon from "./images/code.svg"
 import githubIcon from "./images/github.svg"
 import linkedinIcon from "./images/linkedin.svg"
 
+//Image Files
+import myPicture from "./images/me_in_italy.jpg"
+import fud from "./images/fud.png"
+
 export default {
   
   //   Header Details ---------------------
@@ -34,14 +38,14 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "FÜD", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A food inventory application that you can use with your roommates to save food. Developed using Node.js, Express framework, and MySQL database.", 
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        fud,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/kentthai/food-inventory-webapp",
     },
     {
       title: "Project Two", //Project Title - Add Your Project Title Here
@@ -115,7 +119,7 @@ export default {
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    myPicture,
 
   //   End About Section ---------------------
 
