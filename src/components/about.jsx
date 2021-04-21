@@ -63,6 +63,17 @@ export default class About extends Component {
                 </div>
                 </div>
             </div>
+            <div className="col-md-4 text-center animate-box">
+                <div className="services color-3">
+                <span className="icon">
+                    <i className="icon-data" />
+                </span>
+                <div className="desc">
+                    <h3> Data Engineering </h3>
+                    <p> I have an understanding of working with databases in design, querying, and backend implementation. Able to implement with PostgreSQL and MongoDB. </p>
+                </div>
+                </div>
+            </div>
             </div>
         </div>
         </section>
