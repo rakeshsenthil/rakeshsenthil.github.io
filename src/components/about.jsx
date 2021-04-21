@@ -14,7 +14,7 @@ export default class About extends Component {
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">I am Rakesh Senthilvelan.</h2>
                     <p>I am a student at UC San Diego. I working towards a Data Science major with a minor in Cognitive Science.</p>
-                    <p>Always learning.</p>
+                    <p>Always learning. Always improving.</p>
                     </div>
                 </div>
                 </div>
@@ -22,12 +22,11 @@ export default class About extends Component {
             </div>
         </div>
         </section>
-        {/* <section className="colorlib-about">
+        <section className="colorlib-about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <h2 className="colorlib-heading">Here of some of my skills:</h2>
             </div>
             </div>
             <div className="row row-pt-md">
@@ -37,8 +36,8 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <h3> Machine Learning </h3>
+                    <p>I have experience in exploring multiple ML and AI concepts in areas such as regression, classification, clustering, and more. Able to implement in Python and R. </p>
                 </div>
                 </div>
             </div>
@@ -48,8 +47,8 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3> Software Engineering </h3>
+                    <p> I have a comfortable understanding of software engineering in areas such as mobile applications, web development, and more. Able to implement in Python and Java. </p>
                 </div>
                 </div>
             </div>
@@ -59,15 +58,14 @@ export default class About extends Component {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <h3> Data Analysis </h3>
+                    <p> I have great experience in analyzing data and providing meaningful insight from it. Able to implement with Python, R, JavaScript Libraries, and Tableau. </p>
                 </div>
                 </div>
             </div>
-        }
             </div>
         </div>
-        </section> */}
+        </section>
       </div>
     )
   }
