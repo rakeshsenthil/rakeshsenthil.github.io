@@ -11,9 +11,7 @@ import githubIcon from "./images/github.svg"
 import linkedinIcon from "./images/linkedin.svg"
 
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
-  //Change The Website Template
-
+  
   //   Header Details ---------------------
   name: "Rakesh",
   headerTagline: [
@@ -26,7 +24,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Glad to see that you're here! My name is Rakesh Senthilvelan. I'm a current Data Science student at the University of California, San Diego. I hope this page can give you a bit more information about who I am and what I do.",
+    "Glad to see that you're here! My name is Rakesh Senthilvelan, from the small town of Hillsborough, New Jersey. I'm a current Data Science student at the University of California, San Diego. I hope this page can give you a bit more information about who I am and what I do.",
 
   //Contact Email
   contactEmail: "rsenthildev@gmail.com",
