@@ -6,6 +6,11 @@ import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
 
+import pythonIcon from "./images/python.png"
+import RIcon from "./images/R_logo.png"
+import javaIcon from "./images/java.png"
+import postgresIcon from "./images/postgres.png"
+
 // Social Icon
 import githubIcon from "./images/github.svg"
 import linkedinIcon from "./images/linkedin.svg"
@@ -16,6 +21,11 @@ import fud from "./images/fud.png"
 import gpt2 from "./images/gpt2.png"
 import hiphop from "./images/hiphop.jpeg"
 import social from "./images/social.jpeg"
+import yelp from "./images/yelp.png"
+import movie from "./images/movie.jpeg"
+import ezStudy from "./images/ezstudy.png"
+import health from "./images/health.png"
+import hmda from "./images/HMDA.png"
 
 export default {
   
@@ -51,6 +61,13 @@ export default {
       url: "https://github.com/kentthai/food-inventory-webapp",
     },
     {
+      title: "Analyzing Inequities in Housing Mortgage Data",
+      para: "Analyzed whether there were significant inequities in lending outcomes based on race using Pandas, Numpy, and Seaborn.",
+      imageSrc: hmda,
+      url: "https://github.com/rakeshsenthil/DSC167_HMDA_Ethics/blob/main/Paper_1_Final.ipynb",
+
+    },
+    {
       title: "GPT-2 Text Generation of Presidential Speeches", 
       para:
         "Used the GPT-2 model along with inputted prefixes such as phrases, sentences, or paragraphs in order to see how each president would complete a certain speech based on its intro", 
@@ -80,24 +97,36 @@ export default {
       url: "https://public.tableau.com/profile/rakesh.senthilvelan#!/vizhome/Dashboard_Visuals/Story1?publish=yes",
     },
     {
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "Small Town, Better Yelp Reviews?", 
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Could a restaurant’s location, specifically in relation to population, positively or negatively influence Yelp ratings? We find out.", 
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        yelp,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/rakeshsenthil/YelpReviewsAnalysis/blob/master/FinalProject_group070.ipynb",
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Predicting Movie Ratings Through Popularity and Similarity Recommender Systems",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "This project was done to compare between different similarity models and combinations of said models to see which was the best at creating a movie recommendation model.", 
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        movie,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://drive.google.com/file/d/1Vw2QFhUOFUNLEpSo1pmxWyLEl4RozFnk/view",
+    },
+    {
+      title: "EZStudy",
+      para: "The main idea is that a student can upload a document of their notes to the website and the website will return study documents that the student can download.",
+      imageSrc: ezStudy,
+      url: "https://devpost.com/software/ezstudy-1vxmfs"
+    },
+    {
+      title: "Health Readmission Avoidance",
+      para: "This tool aims to create a simple and efficient communication between healthcare providers, specialists, doctors, pharmacists, and patients to make sure that it is easy for a patient to follow all the steps after being discharged from the hospital to avoid readmission.",
+      imageSrc: health,
+      url: "https://healthreadmissionavoidance.appspot.com/"
     },
 
     /*
@@ -115,11 +144,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "My name is Rakesh Senthilvelan and I come from the small town of Hillsborough, New Jersey. Currently, I am working towards a B.S. in Data Science with a minor in Cognitive Science from the University of California, San Diego. I have always had an interest in business, technology, and finding solutions to problems. Pursuing this coursework allows me to engage in all of those plus some more.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I like to engage myself in areas that allow me to have a more holistic skillset. At my university, I am involved as the President of the UC San Diego Student Foundation, Co-Director of the SD Hacks Fellowship, and Professional Events Director at the Data Science Student Society. In addition, I work towards responsible and ethical Artificial Intelligence practices through my volunteerism at the Data Science Alliance in San Diego. Professionally, I have been working with health technology startup JoGo Health for the past three years in software devlopment and testing. I look forward to starting my internship as a Software Engineer at Cisco this summer.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "My skillset is diverse in technology, business, and leadership areas. I have experience in languages such as Python, R, Java, JavaScript, HTML/CSS, and PostgreSQL. In addition, I am familiar with tools in visualization and UI/UX development such as Tableau and Figma. I am familiar with many libraries within said languages. Beyond this, I have experience in developing startup companies from the ground up through my experience with SD Hacks Fellowship, public relations and philanthropy through the UCSD Student Foundation, and event development and networking through the Data Science Student Society.",
   aboutImage:
     myPicture,
 
@@ -131,34 +160,34 @@ export default {
 
   skills: [
     {
-      img: htmlIcon,
+      img: pythonIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I have experience in Python for use cases such as AI/ML, data analysis, and data visualization using libraries such as Pandas, Numpy, Seaborn, SKLearn, Dask, PySpark, Tensorflow, and PyTorch.",
     },
     {
-      img: cssIcon,
+      img: RIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I have experience using R for cases in data analysis, visualization, statistics, and machine learning.",
     },
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I have experience using JavaScript for web development, data visualization, and application development. I have experience with libraries such as Gatsby, React, Node.js, D3.js, and Highcharts.",
     },
     {
-      img: reactIcon,
+      img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I have experience using HTML and CSS for web development purposes. I have experience using frameworks including Bootstrap and Pure.css",
     },
     {
-      img: designIcon,
+      img: javaIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I have experience in using Java for developing Android applications and data structures/algorithms.",
     },
     {
-      img: codeIcon,
+      img: postgresIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I have experience using PostgreSQL for data engineering purposes in building databases, querying databases, and modifying databases.",
     },
   ],
 
@@ -166,9 +195,9 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+  promotionHeading: "Fun Facts",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "A little bit about myself: I am very interested in cars, fashion, gear, and travel. I like to involve myself with local car culture whenever I can, explore new and vintage fashions, check out new gear for, well, just about everything, and travel to new places when I can. Feel free to reach out to me if you ever just want to chat!",
 
 
   contactSubHeading: "Feel free to reach out or check out my Github and LinkedIn!",
