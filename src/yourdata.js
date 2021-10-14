@@ -8,7 +8,10 @@ import jsIcon from "./images/javascript.svg"
 
 import pythonIcon from "./images/python.png"
 import RIcon from "./images/R_logo.png"
-import javaIcon from "./images/java.png"
+import javaIcon from "/public/static/java-3d380d66f1701ab615ea3c159a610456.png"
+// import javaIcon from "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pikpng.com%2Fpngvi%2FiRbRmiw_datei-java-logo-svg-java-logo-svg-clipart%2F&psig=AOvVaw0qPCImkl_ZkIPlETwBLg2s&ust=1621211145884000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNji5aX4zPACFQAAAAAdAAAAABAI"
+
+
 import postgresIcon from "./images/postgres.png"
 
 // Social Icon
@@ -146,7 +149,7 @@ export default {
   aboutParaOne:
     "My name is Rakesh Senthilvelan and I come from the small town of Hillsborough, New Jersey. Currently, I am working towards a B.S. in Data Science with a minor in Cognitive Science from the University of California, San Diego. I have always had an interest in business, technology, and finding solutions to problems. Pursuing this coursework allows me to engage in all of those plus some more.",
   aboutParaTwo:
-    "I like to engage myself in areas that allow me to have a more holistic skillset. At my university, I am involved as the President of the UC San Diego Student Foundation, Co-Director of the SD Hacks Fellowship, and Professional Events Director at the Data Science Student Society. In addition, I work towards responsible and ethical Artificial Intelligence practices through my volunteerism at the Data Science Alliance in San Diego. Professionally, I have been working with health technology startup JoGo Health for the past three years in software devlopment and testing. I look forward to starting my internship as a Software Engineer at Cisco this summer.",
+    "I like to engage myself in areas that allow me to have a more holistic skillset. At my university, I am involved as the President of the UC San Diego Student Foundation, Co-Director of the SD Hacks Fellowship, and Professional Events Director at the Data Science Student Society. In addition, I work towards responsible and ethical Artificial Intelligence practices through my volunteerism at the Data Science Alliance in San Diego. Professionally, I have been working with health technology startup JoGo Health for the past three years in software devlopment and testing. I am currently working in a Software Engineering Co-op at Cisco where I am focusing on areas such as front end development, data engineering, and RESTful API development.",
   aboutParaThree:
     "My skillset is diverse in technology, business, and leadership areas. I have experience in languages such as Python, R, Java, JavaScript, HTML/CSS, and PostgreSQL. In addition, I am familiar with tools in visualization and UI/UX development such as Tableau and Figma. I am familiar with many libraries within said languages. Beyond this, I have experience in developing startup companies from the ground up through my experience with SD Hacks Fellowship, public relations and philanthropy through the UCSD Student Foundation, and event development and networking through the Data Science Student Society.",
   aboutImage:
@@ -171,6 +174,7 @@ export default {
     },
     {
       img: jsIcon,
+      // img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pikpng.com%2Fpngvi%2FiRbRmiw_datei-java-logo-svg-java-logo-svg-clipart%2F&psig=AOvVaw0qPCImkl_ZkIPlETwBLg2s&ust=1621211145884000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNji5aX4zPACFQAAAAAdAAAAABAI",
       para:
         "I have experience using JavaScript for web development, data visualization, and application development. I have experience with libraries such as Gatsby, React, Node.js, D3.js, and Highcharts.",
     },
