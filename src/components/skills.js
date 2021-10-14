@@ -11,6 +11,8 @@ const Skills = () => {
             {data.skills.map((skill, index) => (
               <div className="skill" key={index}>
                 <img src={skill.img} alt="css"></img>
+                {/* <img className={styles.moreInfoImg} src={withPrefix("/img/loadedTruck.jpg")} alt="delivery truck" /> */}
+
                 <p>{skill.para}</p>
               </div>
             ))}
