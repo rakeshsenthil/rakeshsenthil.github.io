@@ -44,7 +44,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Glad to see that you're here! My name is Rakesh Senthilvelan, from the small town of Hillsborough, New Jersey. I'm a current Data Science student at the University of California, San Diego. I hope this page can give you a bit more information about who I am and what I do.",
+    "Glad to see that you're here! My name is Rakesh Senthilvelan, from the small town of Hillsborough, New Jersey and a graduate of the University of California, San Diego with a B.S. in Data Science with minors in Business and Cognitive Science. I'm a Staff Data Scientist at Booz Allen Hamilton. I hope this page can give you a bit more information about who I am and what I do.",
 
   //Contact Email
   contactEmail: "rsenthildev@gmail.com",
